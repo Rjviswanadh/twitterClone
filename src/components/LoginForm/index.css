@@ -1,0 +1,143 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+}
+.log-img {
+  margin: 0px 0px 0px 200px;
+  width: 100%;
+  margin-left: 110px;
+  height: 100%;
+  background-size: cover;
+  border-radius: 0px;
+}
+.login-form {
+  display: flex;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+input {
+  width: 360px;
+  height: 40px;
+  margin-top: 8px;
+}
+@media (max-width: 360px) {
+  input {
+    width: 312px;
+    height: 40px;
+    margin-top: 8px;
+    padding: 8px;
+  }
+}
+
+/* @media (max-width: 360px) {
+  .login-form-container {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+} */
+label {
+  width: 66px;
+  height: 16px;
+}
+button {
+  width: 360px;
+  height: 40px;
+}
+.login-button {
+  margin-top: 10px;
+  background-color: orange;
+  border-radius: 8px;
+  border-style: none;
+}
+.logo-name {
+  color: orange;
+}
+.login-form-container {
+  box-shadow: 0px 8px 40px 0px;
+  width: 456px;
+  height: 523px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  margin-top: 40px;
+  border-radius: 8px;
+  padding: 40px;
+  margin-left: 148px;
+}
+@media (max-width: 360px) {
+  .login-form-container {
+    box-shadow: 0px 0px 0px 0px;
+    order: 2;
+  }
+}
+@media (max-width: 360px) {
+  div .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+@media (max-width: 360px) {
+  .log-img {
+    display: flex;
+    order: 1;
+    height: 387px;
+    width: 387px;
+    border-radius: 300px;
+    margin-top: -48px;
+    margin-left: 300px;
+    z-index: 10;
+  }
+}
+
+@media (max-width: 360px) {
+  .login-button {
+    width: 312px;
+  }
+}
+
+/* @media (max-width: 360px) {
+  .log-img {
+    display: none;
+  }
+} */
+
+.logo-img {
+  width: 49px;
+  height: 39px;
+  margin-left: 70px;
+}
+.name {
+  line-height: 0px;
+}
+@media (max-width: 360px) {
+  label input {
+    display: flex;
+    justify-content: flex-start;
+    width: 68px;
+    height: 16px;
+    font-weight: bold;
+  }
+}
+@media (max-width: 360px) {
+  .input {
+    font-size: 30px;
+  }
+}
+@media (max-width: 360px) {
+  .name {
+    display: none;
+  }
+}

@@ -1,0 +1,93 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+@media (max-width: 360px) {
+  .header {
+    display: none;
+  }
+}
+.menu-icon {
+  margin: 40px 20px 0px 0px;
+}
+
+@media (min-width: 360px) {
+  .menu-icon {
+    display: none;
+  }
+}
+.header1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  margin-right: 100px;
+}
+.header2 {
+  display: flex;
+  padding: 0px;
+  height: 96px;
+  justify-content: space-around;
+  background-color: #f8fafc;
+}
+@media (max-width: 360px) {
+  .header2 {
+    width: 100%;
+  }
+}
+
+.button {
+  height: 32px;
+  width: 73px;
+  background-color: orange;
+  color: white;
+  border-style: none;
+  border-radius: 6px;
+  padding: 8px, 16px, 8px, 16px;
+}
+.cart {
+  margin: 0px 32px 0px 32px;
+  text-decoration: none;
+}
+.kitchen {
+  display: flex;
+  color: orange;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 8px;
+}
+@media (max-width: 360px) {
+  .kitchen {
+    font-size: 24px;
+  }
+}
+.home {
+  color: orange;
+  text-decoration: none;
+}
+.header-image {
+  height: 43px;
+  width: 53px;
+  left: 165px;
+  top: 26px;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 360px) {
+  .header-image {
+    height: 35px;
+    width: 35px;
+  }
+}
+.over-all-div {
+  display: flex;
+  justify-content: center;
+}

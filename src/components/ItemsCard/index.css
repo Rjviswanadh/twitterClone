@@ -1,0 +1,40 @@
+.line-out {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-top: 2px solid;
+  border-image: linear-gradient(
+      to right,
+      grey 25%,
+      yellow 25%,
+      yellow 50%,
+      red 50%,
+      red 75%,
+      teal 75%
+    )
+    5;
+}
+.food-items {
+  margin-top: 20px;
+  padding: 13px;
+  display: flex;
+  width: 500px;
+}
+.name-cost {
+  margin-left: 20px;
+  line-height: 36px;
+}
+.each-name {
+  font-size: 20px;
+}
+.add-button {
+  font-family: Inter;
+  border-color: orange;
+  border-radius: 8px;
+  color: orange;
+  width: 60px;
+}
+.each-img {
+  height: 100px;
+  width: 9000px;
+}
